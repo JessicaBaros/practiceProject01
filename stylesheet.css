@@ -1,0 +1,109 @@
+body {
+    max-width: 960px;
+    margin: auto;
+    background: #013040;
+    color: #013040;
+    font-size: 14px;
+    font-family: 'Yeseva One', cursive;
+}
+header, footer {
+    text-align: center;
+}
+h1,h2,footer {
+    color: #FAC9A1;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+#profile {
+    display: flex;
+    justify-content: space-between;
+
+}
+#profileimage {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 100%;
+    filter: sepia(70%);
+}
+.child2 {
+    width: 100%;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#name-date {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#name-date h2 {
+    margin: 0px;
+}
+#choose {
+    padding:32px 0px 16px 32px;
+    margin-bottom: 50px;
+    background-color: #FAC9A1;
+    border-radius: 10px 10px 10px 70px;
+    box-shadow:
+    0 10px 1px  #013040,
+    0 20px 1px  #4AB0F2,
+    0 30px 1px  #FDAA42,
+    0 40px 1px  #F26938;
+    
+}
+h3{
+    margin: 0px;
+}
+#choose ul{
+    padding-left: 16px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+figure {
+    max-width:200px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+figure img{
+    max-height:200px;
+    
+}
+figcaption {
+    position: relative;
+    top:-20px;
+    background-color: rgba(255, 136, 0, 0.747);
+    font-weight: bold;
+    padding: 5px;
+    min-height: 48px;
+}
+.shape {
+    padding:32px 0px 16px 32px;
+    margin-bottom: 50px;
+    background-color: #FAC9A1;
+    border-radius: 10px 10px 70px 10px;
+    box-shadow:
+    0 10px 1px  #013040,
+    0 20px 1px  #4AB0F2,
+    0 30px 1px  #FDAA42,
+    0 40px 1px  #F26938;
+}
